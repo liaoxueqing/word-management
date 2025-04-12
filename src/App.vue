@@ -98,4 +98,10 @@ const addWords = (newWords) => {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   margin: 60px;
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    margin: 20px;
+  }
+}
 </style>
