@@ -11,11 +11,12 @@
                       @update:words="(updatedWords) => handleWordsUpdate('words2', updatedWords)"
       ></WordManagement>
     </el-tab-pane>
-    <el-tab-pane label="航古诗背诵" name="third">
-      <PoetryManagement :poetryList="poetries1"></PoetryManagement>
-    </el-tab-pane>
-    <el-tab-pane label="皓皓古诗背诵" name="fourth">
-      <PoetryManagement  :poetryList="poetries2"></PoetryManagement></el-tab-pane>
+<!--    <el-tab-pane label="航古诗背诵" name="third">-->
+<!--      <PoetryManagement :poetryList="poetryList1"></PoetryManagement>-->
+<!--    </el-tab-pane>-->
+<!--    <el-tab-pane label="皓皓古诗背诵" name="fourth">-->
+<!--      <PoetryManagement  :poetryList="poetryList2"></PoetryManagement>-->
+<!--    </el-tab-pane>-->
     <el-tab-pane label="管理字库" name="fifth">
       <NewWordManagement  :words="words1" :words2="words2"  @update:newWords="addWords"></NewWordManagement>
     </el-tab-pane>
@@ -26,7 +27,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import WordManagement from './components/WordManagement.vue'
-import PoetryManagement from './components/PoetryManagement.vue'
+// import PoetryManagement from './components/PoetryManagement.vue'
 import NewWordManagement from './components/NewWordManagement.vue'
 import { ElTabs, ElTabPane } from 'element-plus'
 
@@ -34,8 +35,8 @@ const activeName = ref('first')
 //todo 从文件读值
 const words1 = ref([])
 const words2 = ref([])
-const poetries1 = ref(['静夜思'])
-const poetries2 = ref(['春晓'])
+// const poetryList1 = ref(['静夜思'])
+// const poetryList2 = ref(['春晓'])
 
 onMounted(() => {
   words1.value = JSON.parse(localStorage.getItem('first')) || [];
