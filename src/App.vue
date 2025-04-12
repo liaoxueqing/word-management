@@ -1,22 +1,9 @@
 <template>
   <div class="main">
-    <el-row :wrap="true" :gutter="20" class="create-area">
-      <el-col :xs="24" :sm="12" :md="6" :lg="4">
-        <el-input
-        v-model="newWords"
-        :rows="3"
-        type="textarea"
-        placeholder="Please input"
-      />
-      </el-col>
-      <el-col :xs="24" :sm="12" :md="6" :lg="4">
-        <el-button type="primary" @click="addWords">增加</el-button>
-      </el-col>
-    </el-row>
   <el-tabs v-model="activeName">
     <el-tab-pane label="航认字" name="first">
       <WordManagement :words="words1"
-                      @update:words="(updatedWords) => handleWordsUpdate('words2', updatedWords)"
+                      @update:words="(updatedWords) => handleWordsUpdate('words1', updatedWords)"
       ></WordManagement>
     </el-tab-pane>
     <el-tab-pane label="皓皓认字" name="second">
@@ -29,6 +16,9 @@
     </el-tab-pane>
     <el-tab-pane label="皓皓古诗背诵" name="fourth">
       <PoetryManagement  :poetryList="poetries2"></PoetryManagement></el-tab-pane>
+    <el-tab-pane label="管理字库" name="fifth">
+      <NewWordManagement  :words="words1" :words2="words2"  @update:newWords="addWords"></NewWordManagement>
+    </el-tab-pane>
   </el-tabs>
   </div>
 </template>
@@ -37,13 +27,13 @@
 import { ref, onMounted } from 'vue'
 import WordManagement from './components/WordManagement.vue'
 import PoetryManagement from './components/PoetryManagement.vue'
+import NewWordManagement from './components/NewWordManagement.vue'
 import { ElTabs, ElTabPane } from 'element-plus'
 
 const activeName = ref('first')
 //todo 从文件读值
 const words1 = ref([])
 const words2 = ref([])
-const newWords = ref('')
 const poetries1 = ref(['静夜思'])
 const poetries2 = ref(['春晓'])
 
@@ -56,17 +46,20 @@ const handleWordsUpdate = (wordsRef, updatedWords) => {
   // todo 修改值并写入文件
   if (wordsRef === 'words1') {
       words1.value = updatedWords
+      localStorage.setItem('first', JSON.stringify(updatedWords));
     } else if (wordsRef === 'words2') {
       words2.value = updatedWords
-    }
+      localStorage.setItem('second', JSON.stringify(updatedWords));
+
+  }
 }
 
-const addWords = () => {
-  if (!newWords.value.trim()) return; // 空值检查
+const addWords = (newWords) => {
+  if (!newWords.trim()) return; // 空值检查
 
   // 分割并处理新单词
-  const newWordsArray = newWords.value
-  .split('');
+  const newWordsArray = newWords
+  .split('').filter(word => word.trim() !== '');
 
   // 去重逻辑
   const existingWords = new Set(words1.value.map(item => item.text));
@@ -76,7 +69,6 @@ const addWords = () => {
     !existingWords.has(word)
   );
   if (!uniqueNewWords.length) {
-    newWords.value = '';
     return;
   }
 
@@ -96,7 +88,6 @@ const addWords = () => {
   // 保存到本地存储
   localStorage.setItem('first', JSON.stringify(updatedWords1));
   localStorage.setItem('second', JSON.stringify(updatedWords2));
-  newWords.value = '';
 }
 
 </script>
