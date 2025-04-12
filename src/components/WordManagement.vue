@@ -12,7 +12,7 @@
       <el-col
         v-for="(word, index) in words"
         :key="index"
-        :xs="8"
+        :xs="12"
         :sm="6"
         :md="4"
         :lg="3"

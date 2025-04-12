@@ -1,6 +1,6 @@
 <template>
   <el-row :wrap="true" :gutter="20" class="create-area">
-    <el-col :xs="24" :sm="12" :md="6" :lg="4">
+    <el-col :xs="24" :sm="24" :md="8" :lg="6">
       <el-input
         v-model="newWords"
         :rows="3"
@@ -8,7 +8,7 @@
         placeholder="Please input"
       />
     </el-col>
-    <el-col :xs="24" :sm="12" :md="6" :lg="4" class="action-row">
+    <el-col :xs="24" :sm="24" :md="8" :lg="6" class="action-row">
       <el-button type="primary" class="btn" @click="handleAddClick">增加</el-button>
       <el-button  class="btn" @click="handleExportClick">导出字库</el-button>
       <el-button  class="btn" @click="handleExportWordStatusClick">导出识字记录</el-button>
