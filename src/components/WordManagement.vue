@@ -76,13 +76,6 @@ export default {
   padding: 20px;
 }
 
-.words-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
 .word-item {
   font-size: 32px;
   display: flex;
