@@ -1,26 +1,26 @@
 <template>
   <div class="main">
-  <el-tabs v-model="activeName">
-    <el-tab-pane label="航认字" name="first">
-      <WordManagement :words="words1"
-                      @update:words="(updatedWords) => handleWordsUpdate('words1', updatedWords)"
-      ></WordManagement>
-    </el-tab-pane>
-    <el-tab-pane label="皓皓认字" name="second">
-      <WordManagement :words="words2"
-                      @update:words="(updatedWords) => handleWordsUpdate('words2', updatedWords)"
-      ></WordManagement>
-    </el-tab-pane>
+    <el-tabs v-model="activeName">
+      <el-tab-pane label="航认字" name="first">
+        <WordManagement :words="words1"
+                        @update:words="(updatedWords) => handleWordsUpdate('words1', updatedWords)"
+        ></WordManagement>
+      </el-tab-pane>
+      <el-tab-pane label="皓皓认字" name="second">
+        <WordManagement :words="words2"
+                        @update:words="(updatedWords) => handleWordsUpdate('words2', updatedWords)"
+        ></WordManagement>
+      </el-tab-pane>
 <!--    <el-tab-pane label="航古诗背诵" name="third">-->
 <!--      <PoetryManagement :poetryList="poetryList1"></PoetryManagement>-->
 <!--    </el-tab-pane>-->
 <!--    <el-tab-pane label="皓皓古诗背诵" name="fourth">-->
 <!--      <PoetryManagement  :poetryList="poetryList2"></PoetryManagement>-->
 <!--    </el-tab-pane>-->
-    <el-tab-pane label="管理字库" name="fifth">
-      <NewWordManagement  :words="words1" :words2="words2"  @update:newWords="addWords"></NewWordManagement>
-    </el-tab-pane>
-  </el-tabs>
+      <el-tab-pane label="管理字库" name="fifth">
+        <NewWordManagement  :words="words1" :words2="words2"  @update:newWords="addWords"></NewWordManagement>
+      </el-tab-pane>
+    </el-tabs>
   </div>
 </template>
 
@@ -94,14 +94,18 @@ const addWords = (newWords) => {
 </script>
 
 <style>
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
 .main {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  margin: 60px;
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    margin: 20px;
-  }
+  margin: 20px;
+  overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 </style>

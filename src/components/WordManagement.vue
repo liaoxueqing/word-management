@@ -1,40 +1,38 @@
 <template>
   <div class="words-management">
-    <el-row :wrap="true" :gutter="20">
-      <el-col :xs="24" :sm="12" :md="8" :lg="6">
-        <h2 >总数{{ words.length }} 未检查数{{words.length-recognizedCount-unrecognizedCount}}</h2>
-      </el-col>
-      <el-col :xs="24" :sm="12" :md="8" :lg="6">
-        <h2>认识数{{recognizedCount}} 不认识数{{unrecognizedCount}}</h2>
-      </el-col>
-    </el-row>
-    <el-row :gutter="20" :wrap="true">
-      <el-col
-        v-for="(word, index) in words"
-        :key="index"
-        :xs="12"
-        :sm="6"
-        :md="4"
-        :lg="3"
-        :style="{ marginBottom: '20px' }"
-      >
-        <el-card shadow="hover"
-                 class="box-card"
-                 :body-class="word.status ? 'recognized' : (word.status === '' ? 'init' : 'unrecognized')">
-          <div class="word-item">
-            <div>{{ word.text }}</div>
-            <div style="display: flex;">
-              <el-checkbox-button
-                :model-value="word.status === true"
-                                  @change="() => updateStatus(word, index, true)">✔️</el-checkbox-button>
-              <el-checkbox-button
-                :model-value="word.status === false"
-                @change="() => updateStatus(word, index, false)">❌</el-checkbox-button>
+    <header>
+      <div>总数{{ words.length }} 未检查{{words.length-recognizedCount-unrecognizedCount}}</div>
+      <div>认识{{recognizedCount}} 不认识{{unrecognizedCount}}</div>
+    </header>
+    <div class="word-list-area" style="height : calc(100vh - 163px);">
+      <el-row :gutter="20" :wrap="true">
+        <el-col
+          v-for="(word, index) in words"
+          :key="index"
+          :xs="12"
+          :sm="6"
+          :md="4"
+          :lg="3"
+          :style="{ marginBottom: '20px' }"
+        >
+          <el-card shadow="hover"
+                  class="box-card"
+                  :body-class="word.status ? 'recognized' : (word.status === '' ? 'init' : 'unrecognized')">
+            <div class="word-item">
+              <div>{{ word.text }}</div>
+              <div style="display: flex;">
+                <el-checkbox-button
+                  :model-value="word.status === true"
+                                    @change="() => updateStatus(word, index, true)">✔️</el-checkbox-button>
+                <el-checkbox-button
+                  :model-value="word.status === false"
+                  @change="() => updateStatus(word, index, false)">❌</el-checkbox-button>
+              </div>
             </div>
-          </div>
-        </el-card>
-      </el-col>
+          </el-card>
+        </el-col>
     </el-row>
+  </div>
   </div>
 </template>
 
@@ -73,7 +71,13 @@ export default {
 
 <style scoped>
 .words-management {
-  padding: 20px;
+  padding: 0;
+}
+.words-management header {
+  font-size: 24px;
+}
+.word-list-area {
+  overflow-y: auto;
 }
 
 .word-item {

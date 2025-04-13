@@ -8,10 +8,13 @@
         placeholder="Please input"
       />
     </el-col>
-    <el-col :xs="24" :sm="24" :md="8" :lg="6" class="action-row">
+    </el-row>
+    <el-row>
+    <el-col :xs="24" :sm="24" :md="24" :lg="24" class="action-row">
       <el-button type="primary" class="btn" @click="handleAddClick">增加</el-button>
       <el-button  class="btn" @click="handleExportClick">导出字库</el-button>
       <el-button  class="btn" @click="handleExportWordStatusClick">导出识字记录</el-button>
+      <el-button  class="btn" @click="handleExportJsonClick">导出识字json</el-button>
     </el-col>
   </el-row>
 </template>
@@ -56,6 +59,11 @@ export default {
     handleExportClick() {
       const data = this.words.map(word => word.text).join("")
       this.export(data, `words-${new Date().toLocaleDateString()}.docx`)
+    },
+
+    handleExportJsonClick() {
+      this.export(this.words, `words1-${new Date().toLocaleDateString()}.json`)
+      this.export(this.words2, `words2-${new Date().toLocaleDateString()}.json`)
     },
 
     // 导出字库
