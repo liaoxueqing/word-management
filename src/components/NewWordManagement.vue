@@ -1,4 +1,5 @@
 <template>
+  <el-row>总字数：{{ words.length }}</el-row>
   <el-row :wrap="true" :gutter="20" class="create-area">
     <el-col :xs="24" :sm="24" :md="8" :lg="6">
       <el-input
