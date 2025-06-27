@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const words = {
     "一": {
         "first": "",
@@ -1978,5 +1979,1992 @@ const words = {
     "它": {
         "first": "",
         "second": ""
+=======
+const WORD_STATUS = {
+    init: 'INIT',
+    right: 'RIGHT',
+    error: 'ERROR'
+}
+const words = {
+    "一": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "二": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "三": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "四": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "五": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "六": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "七": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "八": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "九": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "十": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鸟": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鱼": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "羊": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "日": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "月": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "星": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "燕": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "小": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "衣": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鼠": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "上": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "下": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "兔": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "白": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "耳": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "天": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "毛": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "水": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "坐": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "站": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "走": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "圆": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "方": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "尖": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "红": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "绿": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "蓝": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "眼": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "嘴": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鼻": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "手": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "脚": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "头": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "看": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "听": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "说": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "我": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "木": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "子": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "山": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "石": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "土": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "海": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "河": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "泉": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "花": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "草": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "叶": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "雨": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "风": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "云": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "跳": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "跑": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "画": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "好": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "友": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "笑": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "口": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "品": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "吃": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "学": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "书": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "笔": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鞋": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "足": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "步": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "高": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "大": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "象": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "丝": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "巾": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "长": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "正": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "反": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "中": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "春": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "早": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "明": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "伞": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "树": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "林": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "丰": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "田": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "金": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "冰": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "雪": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "冬": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "龙": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "节": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "香": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "家": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "门": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "户": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "年": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "包": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "火": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "人": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "从": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "众": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "园": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "苗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "农": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "瓜": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "果": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "皮": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "豆": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "米": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "面": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "舟": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "出": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "入": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "里": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "外": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "力": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "光": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "开": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "关": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "泡": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "气": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "味": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "冷": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "冲": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "色": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "灯": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "马": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "路": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "车": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "保": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "护": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "全": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "快": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "乐": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "行": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "玩": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "台": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "妈": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "弟": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "妹": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "刷": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "房": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "顶": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "村": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "扫": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "洗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "牛": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "晚": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "桃": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "多": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "少": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "地": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "前": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "后": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "雷": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "百": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "千": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "身": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "舌": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "牙": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "齿": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "脸": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "目": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "心": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "眉": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "男": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "女": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "儿": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "爸": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "爷": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "奶": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "哥": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "姐": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "你": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "他": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "她": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "窗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "屋": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "床": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "盆": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "盘": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "桌": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "汤": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "饭": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "菜": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "踩": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "彩": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "采": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "勺": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "杯": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "进": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "来": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "井": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "对": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "问": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "时": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "在": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "认": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "讲": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "发": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "夏": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "秋": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "东": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "南": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "西": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "北": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "椅": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "帽": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "袜": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "船": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "飞": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "机": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "桥": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "店": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "楼": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "塔": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "梨": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "猪": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "猫": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "狗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鸡": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鸭": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鹅": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "卡": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "轮": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "公": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "交": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "街": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "巷": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "道": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "城": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "成": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "住": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "宅": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "院": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "墙": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "左": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "右": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "灭": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "热": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "汗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "哭": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "爱": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "怕": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "害": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "吓": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "虾": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "喝": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "唱": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "叫": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "喊": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "闪": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "电": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "阳": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "夜": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "空": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "虫": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鬼": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "虎": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "像": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "江": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "浪": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "湖": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "竹": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "禾": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "犬": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "爪": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "肉": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "羽": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "尾": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "贝": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "网": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "生": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "立": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "丫": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "洒": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "记": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "原": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "又": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "粗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "细": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "黄": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "买": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "写": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "起": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "图": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "会": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "过": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鹿": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "如": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "吵": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "纸": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "神": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "话": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "奇": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "放": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "闹": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "摇": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "刚": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "调": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "们": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "有": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "扑": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "扁": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "请": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "教": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "旗": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "流": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "梳": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "亲": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "的": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "幸": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "福": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "礼": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "貌": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "怪": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "边": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "牵": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "抢": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "蛋": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "队": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "伍": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "所": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "逃": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "了": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "妙": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "篮": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "物": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "碰": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "滑": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "梯": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "管": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "轻": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "傻": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "偷": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "萝": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "卜": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "弯": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "病": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "静": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "习": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "本": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "字": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "读": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "练": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "答": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "思": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "想": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "抱": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "穿": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "拉": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "打": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "抓": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "抬": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "只": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "个": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "片": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "条": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "朵": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "支": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "辆": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "块": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "爬": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "拿": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "丢": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "胖": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "宽": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "直": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "平": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "黑": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "粉": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "灰": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "王": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "李": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "张": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "刘": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "杨": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "陈": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "朱": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "吴": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "坏": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "丑": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "美": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "低": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "短": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "慢": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "远": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "近": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "重": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "给": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "总": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "不": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "做": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "真": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "和": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "都": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "就": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "还": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "比": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "川": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "校": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "班": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "级": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "姓": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "名": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "棋": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "积": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "词": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "句": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "乌": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鸦": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "午": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "期": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "语": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "文": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "数": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "柳": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "自": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "昨": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "今": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "这": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "去": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "可": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "莲": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "戏": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "间": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "用": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "几": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "没": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "参": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "加": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "是": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "青": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "蛙": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "着": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "先": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "内": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "歌": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "清": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "尘": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "双": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "尺": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "作": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "业": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "刀": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "宝": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "课": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "升": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "国": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "声": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "么": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "向": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "老": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "师": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "工": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "厂": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "医": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "卫": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "两": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "见": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "影": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "常": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "件": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "也": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "办": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "到": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "才": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "能": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "叔": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "巴": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "谁": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "把": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "最": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "处": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "找": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "许": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "法": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "点": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "半": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "回": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "久": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "更": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "旦": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "拼": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "音": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "鲜": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+    },
+    "它": {
+        "first": WORD_STATUS.init,
+        "second": WORD_STATUS.init
+>>>>>>> 5d433b72 (feat:add words.js file)
     }
 }
